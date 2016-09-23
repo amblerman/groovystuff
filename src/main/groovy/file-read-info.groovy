@@ -1,6 +1,6 @@
 //If you want to run this file as a script or groovyConsole
 //you'll need to uncomment the next line:
-//@Grab('org.apache.tika:tika-core:1.10')
+@Grab('org.apache.tika:tika-core:1.10')
 
 import org.apache.tika.Tika
 
@@ -9,7 +9,8 @@ import java.nio.file.Paths
 import java.nio.file.Files
 import java.nio.file.attribute.BasicFileAttributes
 
-Path f = Paths.get('resources/hello.html') //<1>
+//Path f = Paths.get('resources/hello.html') //<1>
+Path f = Paths.get('/Users/andrewmoynahan/Documents/test/installed.properties') //<1>
 BasicFileAttributes attrs = Files.readAttributes(f, BasicFileAttributes) //<2>
 
 Tika tika = new Tika() //<3>
