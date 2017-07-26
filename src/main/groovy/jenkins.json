@@ -1,0 +1,411 @@
+{
+
+  "_class" : "hudson.model.FreeStyleBuild",
+
+  "actions" : [
+
+    {
+
+      "_class" : "hudson.model.CauseAction",
+
+      "causes" : [
+
+        {
+
+          "_class" : "hudson.model.Cause$UserIdCause",
+
+          "shortDescription" : "Started by user Jonathan Himes",
+
+          "userId" : "I320580",
+
+          "userName" : "Jonathan Himes"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "_class" : "jenkins.metrics.impl.TimeInQueueAction"
+
+    },
+
+    {
+
+
+
+    },
+
+    {
+
+      "_class" : "hudson.plugins.git.util.BuildData",
+
+      "buildsByBranchName" : {
+
+        "origin/katie" : {
+
+          "_class" : "hudson.plugins.git.util.Build",
+
+          "buildNumber" : 7,
+
+          "buildResult" : null,
+
+          "marked" : {
+
+            "SHA1" : "2f4640a0fb3d617118766b8efb9f90c480cba316",
+
+            "branch" : [
+
+              {
+
+                "SHA1" : "2f4640a0fb3d617118766b8efb9f90c480cba316",
+
+                "name" : "origin/katie"
+
+              }
+
+            ]
+
+          },
+
+          "revision" : {
+
+            "SHA1" : "2f4640a0fb3d617118766b8efb9f90c480cba316",
+
+            "branch" : [
+
+              {
+
+                "SHA1" : "2f4640a0fb3d617118766b8efb9f90c480cba316",
+
+                "name" : "origin/katie"
+
+              }
+
+            ]
+
+          }
+
+        },
+
+        "refs/remotes/origin/TEST-2" : {
+
+          "_class" : "hudson.plugins.git.util.Build",
+
+          "buildNumber" : 12,
+
+          "buildResult" : null,
+
+          "marked" : {
+
+            "SHA1" : "0a213bbca197ae86131c20329f420612315f6beb",
+
+            "branch" : [
+
+              {
+
+                "SHA1" : "0a213bbca197ae86131c20329f420612315f6beb",
+
+                "name" : "refs/remotes/origin/TEST-2"
+
+              }
+
+            ]
+
+          },
+
+          "revision" : {
+
+            "SHA1" : "0a213bbca197ae86131c20329f420612315f6beb",
+
+            "branch" : [
+
+              {
+
+                "SHA1" : "0a213bbca197ae86131c20329f420612315f6beb",
+
+                "name" : "refs/remotes/origin/TEST-2"
+
+              }
+
+            ]
+
+          }
+
+        },
+
+        "origin/develop" : {
+
+          "_class" : "hudson.plugins.git.util.Build",
+
+          "buildNumber" : 34,
+
+          "buildResult" : null,
+
+          "marked" : {
+
+            "SHA1" : "b8c8ceb0a31582d4eff064dc36b1877bfca5c6b2",
+
+            "branch" : [
+
+              {
+
+                "SHA1" : "b8c8ceb0a31582d4eff064dc36b1877bfca5c6b2",
+
+                "name" : "origin/develop"
+
+              }
+
+            ]
+
+          },
+
+          "revision" : {
+
+            "SHA1" : "b8c8ceb0a31582d4eff064dc36b1877bfca5c6b2",
+
+            "branch" : [
+
+              {
+
+                "SHA1" : "b8c8ceb0a31582d4eff064dc36b1877bfca5c6b2",
+
+                "name" : "origin/develop"
+
+              }
+
+            ]
+
+          }
+
+        }
+
+      },
+
+      "lastBuiltRevision" : {
+
+        "SHA1" : "b8c8ceb0a31582d4eff064dc36b1877bfca5c6b2",
+
+        "branch" : [
+
+          {
+
+            "SHA1" : "b8c8ceb0a31582d4eff064dc36b1877bfca5c6b2",
+
+            "name" : "origin/develop"
+
+          }
+
+        ]
+
+      },
+
+      "remoteUrls" : [
+
+        "git@ghe.test.fyiblue.com:HCSC/rsctest.git"
+
+      ],
+
+      "scmName" : ""
+
+    },
+
+    {
+
+      "_class" : "hudson.plugins.git.GitTagAction"
+
+    },
+
+    {
+
+
+
+    },
+
+    {
+
+
+
+    },
+
+    {
+
+
+
+    },
+
+    {
+
+
+
+    },
+
+    {
+
+      "_class" : "hudson.plugins.jira.JiraBuildAction"
+
+    },
+
+    {
+
+
+
+    }
+
+  ],
+
+  "artifacts" : [
+
+
+
+  ],
+
+  "building" : false,
+
+  "description" : null,
+
+  "displayName" : "#34",
+
+  "duration" : 319312,
+
+  "estimatedDuration" : 324226,
+
+  "executor" : null,
+
+  "fullDisplayName" : "Electric_Cloud_ARA » RSC_Build_for_ARA #34",
+
+  "id" : "34",
+
+  "keepLog" : false,
+
+  "number" : 34,
+
+  "queueId" : 4374,
+
+  "result" : "SUCCESS",
+
+  "timestamp" : 1500644301044,
+
+  "url" : "http://10.234.0.103/job/Electric_Cloud_ARA/job/RSC_Build_for_ARA/34/",
+
+  "builtOn" : "Test_Slave",
+
+  "changeSet" : {
+
+    "_class" : "hudson.plugins.git.GitChangeSetList",
+
+    "items" : [
+
+      {
+
+        "_class" : "hudson.plugins.git.GitChangeSet",
+
+        "affectedPaths" : [
+
+          "README.md"
+
+        ],
+
+        "commitId" : "082496411e29fb8f094b28d9810f953022bfd359",
+
+        "timestamp" : 1500587575000,
+
+        "author" : {
+
+          "absoluteUrl" : "http://10.234.0.103/user/github%20enterprise",
+
+          "fullName" : "GitHub Enterprise"
+
+        },
+
+        "authorEmail" : "noreply@bcbsil.com",
+
+        "comment" : "SCRUM-1070 lower case rsc\n",
+
+        "date" : "2017-07-20 16:52:55 -0500",
+
+        "id" : "082496411e29fb8f094b28d9810f953022bfd359",
+
+        "msg" : "SCRUM-1070 lower case rsc",
+
+        "paths" : [
+
+          {
+
+            "editType" : "edit",
+
+            "file" : "README.md"
+
+          }
+
+        ]
+
+      },
+
+      {
+
+        "_class" : "hudson.plugins.git.GitChangeSet",
+
+        "affectedPaths" : [
+
+          "README.md"
+
+        ],
+
+        "commitId" : "dd8f4b45b0fc3a8e2971781207eb1b7efd263c4c",
+
+        "timestamp" : 1500587683000,
+
+        "author" : {
+
+          "absoluteUrl" : "http://10.234.0.103/user/github%20enterprise",
+
+          "fullName" : "GitHub Enterprise"
+
+        },
+
+        "authorEmail" : "noreply@bcbsil.com",
+
+        "comment" : "SCRUM-1066 added text\n",
+
+        "date" : "2017-07-20 16:54:43 -0500",
+
+        "id" : "dd8f4b45b0fc3a8e2971781207eb1b7efd263c4c",
+
+        "msg" : "SCRUM-1066 added text",
+
+        "paths" : [
+
+          {
+
+            "editType" : "edit",
+
+            "file" : "README.md"
+
+          }
+
+        ]
+
+      }
+
+    ],
+
+    "kind" : "git"
+
+  },
+
+  "culprits" : [
+
+    {
+
+      "absoluteUrl" : "http://10.234.0.103/user/github%20enterprise",
+
+      "fullName" : "GitHub Enterprise"
+
+    }
+
+  ]
+
+}
